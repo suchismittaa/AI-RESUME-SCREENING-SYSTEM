@@ -1,0 +1,9 @@
+pypdf>=5.0
+python-docx>=1.1        # optional: DOCX resumes
+pydantic>=2.5
+requests>=2.31
+python-dotenv>=1.0      # optional: loads .env
+anthropic>=0.40         # optional: only needed when ANTHROPIC_API_KEY is set
+fastapi>=0.110          # optional: only for the API (api.py)
+uvicorn>=0.29           # optional: only for the API
+pytest>=8.0

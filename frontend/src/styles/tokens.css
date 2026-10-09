@@ -1,0 +1,33 @@
+/* Project palette. Everything else on screen is a tint, shade or transparency of these six. */
+:root {
+  --brown: #3E3232;
+  --mauve: #7E5F66;
+  --peach: #FFBC9F;
+  --orange: #F29A65;
+  --yellow: #F8C53C;
+  --white: #FFFFFF;
+
+  --bg: var(--brown);
+  --text: var(--white);
+  --text-2: rgba(255, 255, 255, 0.78);
+  --meta: rgba(255, 188, 159, 0.82);          /* peach tint: metadata on brown, readable */
+  --line: rgba(255, 188, 159, 0.16);
+  --line-strong: rgba(255, 188, 159, 0.32);
+
+  --glass: rgba(255, 255, 255, 0.065);
+  --glass-hover: rgba(255, 255, 255, 0.1);
+  --glass-strong: rgba(255, 255, 255, 0.11);
+  --glass-border: rgba(255, 188, 159, 0.2);
+  --glass-shadow: 0 10px 30px rgba(24, 17, 17, 0.28);
+  --blur: blur(14px) saturate(1.1);
+
+  --selected: rgba(255, 188, 159, 0.16);
+  --track: rgba(255, 255, 255, 0.1);
+
+  --radius-lg: 18px;
+  --radius: 12px;
+  --radius-sm: 8px;
+
+  --font: "Inter", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
